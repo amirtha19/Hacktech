@@ -6,6 +6,7 @@ We have trained the model using annotations from the DETRAC dataset. The link fo
 
 ```bash
 !git clone https://github.com/amirtha19/Hacktech
+```
 
 Run the Detrac_train.ipynb inside it.
 
