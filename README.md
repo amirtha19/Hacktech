@@ -5,7 +5,7 @@ We have trained the model using annotations from the DETRAC dataset. The link fo
 
 Step 1 : 
 
-Upload the [Link to Google Drive Folder](https://drive.google.com/drive/folders/1X-gCnYc2KJ_txs4xfAnXln13xi_CZYwM?usp=sharing) in your drive.
+Upload the [Folder](https://drive.google.com/drive/folders/1X-gCnYc2KJ_txs4xfAnXln13xi_CZYwM?usp=sharing) in your drive.
 
 Step 2:
 
