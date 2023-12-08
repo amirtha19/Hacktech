@@ -220,15 +220,7 @@ def draw_boxes(img, bbox, names,object_id, identities=None, offset=(0, 0)):
         except:
             pass
         UI_box(box, img, label=label, color=color, line_thickness=2)
-        # draw trail
-        for i in range(1, len(data_deque[id])):
-            # check if on buffer value is none
-            if data_deque[id][i - 1] is None or data_deque[id][i] is None:
-                continue
-            # generate dynamic thickness of trails
-            thickness = int(np.sqrt(64 / float(i + i)) * 1.5)
-            # draw trails
-            cv2.line(img, data_deque[id][i - 1], data_deque[id][i], color, thickness)
+        
     
     #4. Display Count in top right corner
         for idx, (key, value) in enumerate(object_counter1.items()):
