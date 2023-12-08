@@ -21,3 +21,6 @@ Upload the [Folder](https://drive.google.com/drive/folders/1X-gCnYc2KJ_txs4xfAnX
 ## Data Training with DETRAC custom annotation dataset
 
 Since the data in detrac is not fully annotated for all the objects in a frame, we custom annotate using Roboflow.Run the roboflow custom_annotation_train.ipynb
+
+
+## The detrac dataset training using yolo performs better than other two
